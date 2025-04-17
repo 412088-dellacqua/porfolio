@@ -19,6 +19,7 @@ public class App
             System.out.println("2. Salir");
             System.out.println("hola");
             System.out.println("chau");
+            System.out.println("quiero");
             opcion = sc.nextInt();
 
             switch (opcion) {
@@ -38,12 +39,7 @@ public class App
 
     public static boolean validarContrasena(String contrasena){
         String regex = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@#$%^&+=!])(?=\\S+$).{8,}$";
-
-        if(contrasena.matches(regex)){
-            return true;
-        }
-
-        return false;
+        return contrasena.matches(regex);
     }
 
 
