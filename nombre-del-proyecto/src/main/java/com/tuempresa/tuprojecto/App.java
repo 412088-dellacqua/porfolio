@@ -19,6 +19,7 @@ public class App
             System.out.println("2. Salir");
             System.out.println("hola");
             System.out.println("chau");
+            System.out.println("paolo");
             opcion = sc.nextInt();
 
             switch (opcion) {
