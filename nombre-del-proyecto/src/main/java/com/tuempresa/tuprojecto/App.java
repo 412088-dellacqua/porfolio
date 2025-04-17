@@ -17,6 +17,8 @@ public class App
             System.out.println("Bienvenido, Por favor elija una opcion");
             System.out.println("1. Validar contrasena segura");
             System.out.println("2. Salir");
+            System.out.println("hola");
+            System.out.println("chau");
             opcion = sc.nextInt();
 
             switch (opcion) {
