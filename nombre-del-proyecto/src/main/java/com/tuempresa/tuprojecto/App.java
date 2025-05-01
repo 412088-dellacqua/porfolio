@@ -23,6 +23,7 @@ public class App
             System.out.println("cuasd0kasdpok");
             System.out.println("si soy");
             System.out.println("quiero");
+            System.out.println("otra prueba");
             opcion = sc.nextInt();
 
             switch (opcion) {
